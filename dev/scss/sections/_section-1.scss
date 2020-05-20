@@ -1,0 +1,58 @@
+/* =============
+    Section 1
+============= */
+#section-1{
+    .container{
+    background-image: url('../img/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 360px;
+    width: auto;
+    }
+
+    
+    .type1{
+        display: grid;
+        grid-template-columns: 10px auto 10px;
+        grid-template-areas: ". type1 .";
+        font-family: 'Comfortaa', cursive, sans-serif;
+        display: block;
+        text-align: center;
+        position: absolute;
+        top: 140px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        .title1{
+            color: $blue;
+        }
+
+        .text1{
+            color: $teal;
+        }
+
+    }
+
+    .start{
+    border: 20px solid $white;
+    border-radius: 50%;;
+    border-color: $white;
+    border-width: thick;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Comfortaa', cursive, sans-serif;
+    font-size: 16px;
+    margin: 4px 2px;
+    align-content: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-30%, -30%);
+    }
+    
+
+}

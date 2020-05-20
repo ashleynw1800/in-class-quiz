@@ -1,0 +1,22 @@
+/* =============
+    Footer
+============= */
+
+.footer{
+    position: static;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: $black;
+
+    h6{
+        color: $white;
+        font-size: 10px;
+        font-family: 'Comfortaa', cursive, sans-serif;
+        text-align: right;
+        padding-bottom: 50px;
+        padding-right: 30px;
+
+
+    }
+}

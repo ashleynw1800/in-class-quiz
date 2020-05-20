@@ -1,0 +1,32 @@
+/* =============
+    Section-3
+============= */
+#section3{
+    .title3{
+        text-align: center;
+        font-family: 'Comfortaa', cursive, sans-serif;
+    }
+
+    .cards{
+        display: grid;
+        grid-template-areas: "card1 card2 card3";
+        background-color: #EEEEEE;
+        font-family: 'Comfortaa', cursive, sans-serif;
+
+        .card1{
+            grid-area: card1;
+            img{
+                width: 100%;
+                max-width: 33%;
+            }
+        }
+
+        .card2{
+            grid-area: card2;
+        }
+
+        .card3{
+            grid-area: card3;
+        }
+    }
+}

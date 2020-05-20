@@ -1,0 +1,22 @@
+/* =============
+    Section 2
+============= */
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: 'text image';
+    background-color: #EEEEEE;
+
+    #2-text{
+        grid-area: text;
+        vertical-align: middle;
+        font-family: 'Comfortaa', cursive, sans-serif;
+    }
+    .image-2{
+        grid-area: 'image';
+        max-width: 100%;
+        height: auto;
+    }
+
+}
